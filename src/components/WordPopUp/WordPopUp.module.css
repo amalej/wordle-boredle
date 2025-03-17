@@ -1,0 +1,69 @@
+.main {
+  position: fixed;
+  top: 0;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(20, 20, 20, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1em !important;
+}
+
+.container {
+  margin: 0px 1em;
+  pointer-events: all;
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  max-width: 100%;
+  min-width: 320px;
+  min-height: 320px;
+  background-color: #363636;
+  aspect-ratio: 0.75;
+  padding: 0.75em;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+}
+
+.word-string {
+  font-weight: 900;
+  text-transform: uppercase;
+  padding-bottom: 0.75em;
+  flex: 1;
+}
+
+.word-part-of-speech {
+  font-size: 1.15em !important;
+}
+
+.word-info {
+  overflow-y: auto;
+  font-size: 0.8em;
+}
+
+.word-definition-example {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1em;
+  margin: 0.75em 0px;
+}
+
+.word-definition .content,
+.word-example .content {
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 0.75em;
+}

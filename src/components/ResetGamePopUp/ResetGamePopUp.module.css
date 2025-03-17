@@ -1,0 +1,55 @@
+.main {
+  position: fixed;
+  top: 0;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(20, 20, 20, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  margin: 0px 1em;
+  pointer-events: all;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  min-width: 320px;
+  background-color: #363636;
+  padding: 0.75em;
+  box-sizing: border-box;
+  gap: 1em;
+}
+
+.content {
+  display: flex;
+  padding: 0.5em;
+  flex: 1;
+}
+
+.actions {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  justify-content: center;
+  width: 40%;
+  margin: auto;
+  font-weight: bolder !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+  border-radius: 0.25em;
+  padding: 0.5em;
+  border: none;
+  box-sizing: border-box;
+  background-color: #787c7e;
+}
